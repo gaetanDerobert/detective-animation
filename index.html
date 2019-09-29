@@ -33,7 +33,26 @@
     <audio id="music" loop="loop" src="/music/epic-8-bit-music.mp3"></audio>
     <div class="music-button" onclick="togglePlay()"></div>
 
+    <!-- Script js -->
     <script src="app.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "API-KEY",
+            authDomain: "detective-animation.firebaseapp.com",
+            databaseURL: "https://detective-animation.firebaseio.com",
+            projectId: "detective-animation",
+            storageBucket: "",
+            messagingSenderId: "667641114268",
+            appId: "1:667641114268:web:55b2e7eafb81ab92aa4759"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
 </body>
 
 </html>
