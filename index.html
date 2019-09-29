@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detective 8bit</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- Background parallax -->
+    <div id="background_hill_1" class="background_hills"></div>
+    <div id="background_hill_2" class="background_hills"></div>
+    <div id="background_hill_3" class="background_hills"></div>
+    <div id="background_hill_4" class="background_hills"></div>
+    <div id="background_hill_5" class="background_hills front"></div>
+    <div id="background_hill_6" class="background_hills front"></div>
+
+    <!-- Character detective -->
+    <div class="character-detective">
+        <img id="detective" src="/character_detective/Idle/Idle_1.png">
+    </div>
+
+    <!-- Player helper -->
+    <div id="helper" class="helper">
+        <p>Press D to run.</p>
+        <p>Press Space to shoot.</p>
+    </div>
+
+    <!-- music -->
+    <audio id="music" loop="loop" src="/music/epic-8-bit-music.mp3"></audio>
+    <div class="music-button" onclick="togglePlay()"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
