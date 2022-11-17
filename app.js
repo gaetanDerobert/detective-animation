@@ -51,7 +51,7 @@ function doAction(action, imageMax, infinite = true) {
     }
 
     // Switch sprite image
-    detectiveElement.src = `/character_detective/${action}/${action}_${imageCount}.png`;
+    detectiveElement.src = `./character_detective/${action}/${action}_${imageCount}.png`;
 }
 
 // OnKeyUpevent
